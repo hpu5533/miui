@@ -115,6 +115,7 @@ nav {
 .poster-footer .phone-item:after {
   content: '';
   position: absolute;
+  z-index: -10;
   top: -109px;
   left: -117px;
   width: 503px;
@@ -179,4 +180,39 @@ nav {
   background-position: top right;
   background-color: #000;
   background-size: contain;
+  overflow: hidden;
+}
+.wrap {
+  margin: 300px 0 0 100px;
+}
+.red-dot img {
+  width: 151px;
+  height: 87px;
+  margin-bottom: 30px;
+}
+.red-dot p {
+  color: #fff;
+  font-size: 56px;
+  font-family: MILanPro_SEMIBOLD,Microsoft YaHei;
+}
+.font {
+  height: 1080px;
+  background-image: url('../images/bg_black.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  color: #fff;
+  font-family: MILanPro_SEMIBOLD,Microsoft YaHei;
+  overflow: hidden;
+}
+.font .font-title {
+  font-size: 56px;
+  line-height: 74px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-family: MILanPro_SEMIBOLD,Microsoft YaHei;
+}
+.font .font-content {
+  font-size: 24px;
+  opacity: .7;
 }
